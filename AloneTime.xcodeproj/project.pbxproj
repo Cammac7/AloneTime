@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24CB3E911AA9658100B3EFC1 /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CB3E8A1AA9658100B3EFC1 /* AddFriendViewController.m */; };
+		24CB3E921AA9658100B3EFC1 /* FriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CB3E8C1AA9658100B3EFC1 /* FriendsTableViewController.m */; };
+		24CB3E931AA9658100B3EFC1 /* FriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CB3E8E1AA9658100B3EFC1 /* FriendViewController.m */; };
+		24CB3E941AA9658100B3EFC1 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CB3E901AA9658100B3EFC1 /* SettingsViewController.m */; };
+		24CB3E961AA965A100B3EFC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CB3E951AA965A100B3EFC1 /* Main.storyboard */; };
 		7E30568E1AA9644700A9E502 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E30568D1AA9644700A9E502 /* main.m */; };
 		7E3056911AA9644700A9E502 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3056901AA9644700A9E502 /* AppDelegate.m */; };
-		7E3056941AA9644700A9E502 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3056931AA9644700A9E502 /* ViewController.m */; };
-		7E3056971AA9644700A9E502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3056951AA9644700A9E502 /* Main.storyboard */; };
 		7E3056991AA9644700A9E502 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3056981AA9644700A9E502 /* Images.xcassets */; };
 		7E30569C1AA9644700A9E502 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E30569A1AA9644700A9E502 /* LaunchScreen.xib */; };
 		7E3056A81AA9644700A9E502 /* AloneTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3056A71AA9644700A9E502 /* AloneTimeTests.m */; };
@@ -27,14 +30,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24CB3E891AA9658100B3EFC1 /* AddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendViewController.h; sourceTree = "<group>"; };
+		24CB3E8A1AA9658100B3EFC1 /* AddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendViewController.m; sourceTree = "<group>"; };
+		24CB3E8B1AA9658100B3EFC1 /* FriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsTableViewController.h; sourceTree = "<group>"; };
+		24CB3E8C1AA9658100B3EFC1 /* FriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsTableViewController.m; sourceTree = "<group>"; };
+		24CB3E8D1AA9658100B3EFC1 /* FriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendViewController.h; sourceTree = "<group>"; };
+		24CB3E8E1AA9658100B3EFC1 /* FriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendViewController.m; sourceTree = "<group>"; };
+		24CB3E8F1AA9658100B3EFC1 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		24CB3E901AA9658100B3EFC1 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		24CB3E951AA965A100B3EFC1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7E3056881AA9644700A9E502 /* AloneTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AloneTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E30568C1AA9644700A9E502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E30568D1AA9644700A9E502 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E30568F1AA9644700A9E502 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E3056901AA9644700A9E502 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7E3056921AA9644700A9E502 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7E3056931AA9644700A9E502 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7E3056961AA9644700A9E502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E3056981AA9644700A9E502 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7E30569B1AA9644700A9E502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7E3056A11AA9644700A9E502 /* AloneTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AloneTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,9 +92,15 @@
 			children = (
 				7E30568F1AA9644700A9E502 /* AppDelegate.h */,
 				7E3056901AA9644700A9E502 /* AppDelegate.m */,
-				7E3056921AA9644700A9E502 /* ViewController.h */,
-				7E3056931AA9644700A9E502 /* ViewController.m */,
-				7E3056951AA9644700A9E502 /* Main.storyboard */,
+				24CB3E891AA9658100B3EFC1 /* AddFriendViewController.h */,
+				24CB3E8A1AA9658100B3EFC1 /* AddFriendViewController.m */,
+				24CB3E8B1AA9658100B3EFC1 /* FriendsTableViewController.h */,
+				24CB3E8C1AA9658100B3EFC1 /* FriendsTableViewController.m */,
+				24CB3E8D1AA9658100B3EFC1 /* FriendViewController.h */,
+				24CB3E8E1AA9658100B3EFC1 /* FriendViewController.m */,
+				24CB3E8F1AA9658100B3EFC1 /* SettingsViewController.h */,
+				24CB3E901AA9658100B3EFC1 /* SettingsViewController.m */,
+				24CB3E951AA965A100B3EFC1 /* Main.storyboard */,
 				7E3056981AA9644700A9E502 /* Images.xcassets */,
 				7E30569A1AA9644700A9E502 /* LaunchScreen.xib */,
 				7E30568B1AA9644700A9E502 /* Supporting Files */,
@@ -199,7 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E3056971AA9644700A9E502 /* Main.storyboard in Resources */,
+				24CB3E961AA965A100B3EFC1 /* Main.storyboard in Resources */,
 				7E30569C1AA9644700A9E502 /* LaunchScreen.xib in Resources */,
 				7E3056991AA9644700A9E502 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E3056941AA9644700A9E502 /* ViewController.m in Sources */,
+				24CB3E911AA9658100B3EFC1 /* AddFriendViewController.m in Sources */,
+				24CB3E921AA9658100B3EFC1 /* FriendsTableViewController.m in Sources */,
 				7E3056911AA9644700A9E502 /* AppDelegate.m in Sources */,
+				24CB3E931AA9658100B3EFC1 /* FriendViewController.m in Sources */,
 				7E30568E1AA9644700A9E502 /* main.m in Sources */,
+				24CB3E941AA9658100B3EFC1 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +262,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7E3056951AA9644700A9E502 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7E3056961AA9644700A9E502 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7E30569A1AA9644700A9E502 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +422,7 @@
 				7E3056AD1AA9644700A9E502 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E3056AE1AA9644700A9E502 /* Build configuration list for PBXNativeTarget "AloneTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +431,7 @@
 				7E3056B01AA9644700A9E502 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
