@@ -115,17 +115,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Door" translatesAutoresizingMaskIntoConstraints="NO" id="fX2-YU-qI8">
-                                <rect key="frame" x="-21" y="-82" width="348" height="668"/>
+                                <rect key="frame" x="-14" y="-75" width="348" height="668"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IR6-d1-o7A">
-                                <rect key="frame" x="34" y="28" width="109" height="53"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <rect key="frame" x="25" y="9" width="233" height="147"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TIME" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DQK-Xr-0zQ">
-                                <rect key="frame" x="77" y="89" width="116" height="78"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                <rect key="frame" x="44" y="106" width="175" height="111"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="67"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -168,6 +168,7 @@
     </scenes>
     <resources>
         <image name="Door" width="520" height="1071"/>
+        <image name="doNotDisturb" width="200" height="400"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
