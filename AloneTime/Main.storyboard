@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
-        <!--Friends-->
+        <!--Test-->
         <scene sceneID="tot-tu-S8q">
             <objects>
                 <tableViewController id="xDO-cN-LOO" customClass="FriendsTableViewController" sceneMemberID="viewController">
@@ -28,7 +28,7 @@
                             <outlet property="delegate" destination="xDO-cN-LOO" id="rLW-yt-dTQ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Friends" id="mFp-VL-Smo">
+                    <navigationItem key="navigationItem" title="Test" id="mFp-VL-Smo">
                         <barButtonItem key="leftBarButtonItem" title="Settings" id="Wnd-Zp-10r">
                             <connections>
                                 <segue destination="o18-yz-NN7" kind="push" id="hoK-ml-wqs"/>
