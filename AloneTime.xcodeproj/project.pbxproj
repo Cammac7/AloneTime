@@ -12,6 +12,7 @@
 		24CB3E931AA9658100B3EFC1 /* FriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CB3E8E1AA9658100B3EFC1 /* FriendViewController.m */; };
 		24CB3E941AA9658100B3EFC1 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CB3E901AA9658100B3EFC1 /* SettingsViewController.m */; };
 		24CB3E961AA965A100B3EFC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CB3E951AA965A100B3EFC1 /* Main.storyboard */; };
+		24CB3E991AA96A7400B3EFC1 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CB3E981AA96A7400B3EFC1 /* SignInViewController.m */; };
 		7E30568E1AA9644700A9E502 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E30568D1AA9644700A9E502 /* main.m */; };
 		7E3056911AA9644700A9E502 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3056901AA9644700A9E502 /* AppDelegate.m */; };
 		7E3056991AA9644700A9E502 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3056981AA9644700A9E502 /* Images.xcassets */; };
@@ -39,6 +40,8 @@
 		24CB3E8F1AA9658100B3EFC1 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		24CB3E901AA9658100B3EFC1 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		24CB3E951AA965A100B3EFC1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		24CB3E971AA96A7400B3EFC1 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		24CB3E981AA96A7400B3EFC1 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
 		7E3056881AA9644700A9E502 /* AloneTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AloneTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E30568C1AA9644700A9E502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E30568D1AA9644700A9E502 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 				24CB3E8E1AA9658100B3EFC1 /* FriendViewController.m */,
 				24CB3E8F1AA9658100B3EFC1 /* SettingsViewController.h */,
 				24CB3E901AA9658100B3EFC1 /* SettingsViewController.m */,
+				24CB3E971AA96A7400B3EFC1 /* SignInViewController.h */,
+				24CB3E981AA96A7400B3EFC1 /* SignInViewController.m */,
 				24CB3E951AA965A100B3EFC1 /* Main.storyboard */,
 				7E3056981AA9644700A9E502 /* Images.xcassets */,
 				7E30569A1AA9644700A9E502 /* LaunchScreen.xib */,
@@ -234,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24CB3E991AA96A7400B3EFC1 /* SignInViewController.m in Sources */,
 				24CB3E911AA9658100B3EFC1 /* AddFriendViewController.m in Sources */,
 				24CB3E921AA9658100B3EFC1 /* FriendsTableViewController.m in Sources */,
 				7E3056911AA9644700A9E502 /* AppDelegate.m in Sources */,
